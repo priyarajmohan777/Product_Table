@@ -116,6 +116,56 @@ Keep the table design strictly in HTML for simplicity.
     </body>
 </html>
 ```
+
+## CSS Code:
+```
+body
+{
+    background-color:#FFF5EC;
+}
+
+
+table,th,td,tr
+{
+    border: 1px solid;
+    align-content: center;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+caption
+{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+table
+{
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+th
+{
+    background-color:#ED6A5A;
+}
+
+tr
+{
+    background-color:#F4F1BB;
+}
+
+td:hover
+{
+    background-color: #9BC1BC;
+}
+```
 ## Output:
 ![image](https://github.com/user-attachments/assets/587f5e2f-9f43-4b91-aaf5-c97ba8d84ebc)
 
