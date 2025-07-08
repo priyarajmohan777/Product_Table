@@ -1,5 +1,5 @@
 # Product Table
-## Date: 07-07-2025
+## Date: 07-07-2025(html) and 08-07-2025 (css)
 ## Objective:
 
 To create a structured HTML table that displays product-related information, including product names, prices, and descriptions, useful for catalogs, listings, or e-commerce prototypes.
@@ -122,6 +122,9 @@ Keep the table design strictly in HTML for simplicity.
                 </td>
             </tr>
 
+            
+
+
         </tbody>
       </table>
 
@@ -182,13 +185,13 @@ tr:hover td
 {
     background-color: #9BC1BC;
 }
-
 ```
 ## Output:
 ![image](https://github.com/user-attachments/assets/587f5e2f-9f43-4b91-aaf5-c97ba8d84ebc)
 
 
-![image](https://github.com/user-attachments/assets/00464740-5564-4089-b900-175482fe61af)
+![image](https://github.com/user-attachments/assets/ae72d0ff-f0bf-4413-a885-f67addd58bc1)
+
 
 
 ## Result:
