@@ -169,5 +169,9 @@ td:hover
 ## Output:
 ![image](https://github.com/user-attachments/assets/587f5e2f-9f43-4b91-aaf5-c97ba8d84ebc)
 
+
+![image](https://github.com/user-attachments/assets/00464740-5564-4089-b900-175482fe61af)
+
+
 ## Result:
 A structured HTML table that displays product-related information, including product names, prices, and descriptions, useful for catalogs, listings, or e-commerce prototypes is created successfully.
