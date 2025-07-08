@@ -53,11 +53,12 @@ Keep the table design strictly in HTML for simplicity.
 <html lang="en">
     <header>
         <title>Product Table</title>
+        <link rel="stylesheet" href="styles.css">
     </header>
 
     <body>
-      <table border="3" align="center">
-        <caption align="center"> <h2> List of Products with Prices and Descriptions</h2></caption>
+      <table>
+        <caption> List of Products with Prices and Descriptions </caption>
         <thead>
             <tr>
                 <th>
@@ -109,6 +110,17 @@ Keep the table design strictly in HTML for simplicity.
                 </td>
             </tr>
 
+            <tr>
+                <td>
+                    Smart LED Desk Lamp
+                </td>
+                <td>
+                   ₹2,499
+                </td>
+                <td>
+                    Dimmable LED lamp with touch controls, USB charging port, and adjustable arm.
+                </td>
+            </tr>
 
         </tbody>
       </table>
@@ -143,6 +155,7 @@ caption
     
 }
 
+
 table
 {
     border-collapse: collapse;
@@ -161,10 +174,15 @@ tr
     background-color:#F4F1BB;
 }
 
-td:hover
+tbody tr:nth-of-type(even)
+{
+    background-color:#E8EFCF;
+}
+tr:hover td
 {
     background-color: #9BC1BC;
 }
+
 ```
 ## Output:
 ![image](https://github.com/user-attachments/assets/587f5e2f-9f43-4b91-aaf5-c97ba8d84ebc)
