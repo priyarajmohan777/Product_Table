@@ -53,11 +53,12 @@ Keep the table design strictly in HTML for simplicity.
 <html lang="en">
     <header>
         <title>Product Table</title>
+        <link rel="stylesheet" href="styles.css">
     </header>
 
     <body>
-      <table border="3" align="center">
-        <caption align="center"> <h2> List of Products with Prices and Descriptions</h2></caption>
+      <table>
+        <caption> List of Products with Prices and Descriptions </caption>
         <thead>
             <tr>
                 <th>
@@ -109,6 +110,17 @@ Keep the table design strictly in HTML for simplicity.
                 </td>
             </tr>
 
+            <tr>
+                <td>
+                    Smart LED Desk Lamp
+                </td>
+                <td>
+                   ₹2,499
+                </td>
+                <td>
+                    Dimmable LED lamp with touch controls, USB charging port, and adjustable arm.
+                </td>
+            </tr>
 
         </tbody>
       </table>
@@ -116,8 +128,68 @@ Keep the table design strictly in HTML for simplicity.
     </body>
 </html>
 ```
+
+## CSS Code:
+```
+body
+{
+    background-color:#FFF5EC;
+}
+
+
+table,th,td,tr
+{
+    border: 1px solid;
+    align-content: center;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+caption
+{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+
+table
+{
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+th
+{
+    background-color:#ED6A5A;
+}
+
+tr
+{
+    background-color:#F4F1BB;
+}
+
+tbody tr:nth-of-type(even)
+{
+    background-color:#E8EFCF;
+}
+tr:hover td
+{
+    background-color: #9BC1BC;
+}
+
+```
 ## Output:
 ![image](https://github.com/user-attachments/assets/587f5e2f-9f43-4b91-aaf5-c97ba8d84ebc)
+
+
+![image](https://github.com/user-attachments/assets/00464740-5564-4089-b900-175482fe61af)
+
 
 ## Result:
 A structured HTML table that displays product-related information, including product names, prices, and descriptions, useful for catalogs, listings, or e-commerce prototypes is created successfully.
